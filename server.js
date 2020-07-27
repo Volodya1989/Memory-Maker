@@ -1,15 +1,15 @@
 const express = require("express");
 const exphbs = require("express-handlebars");
-
+var compression = require('compression')
 const PORT = process.env.PORT || 3000;
 const app = express();
 const db = require("./models");
 const cookieParser = require('cookie-parser');
-const ViewsController = require("./controllers/viewsController.js");
+const ViewsController = require("./dist/viewsController");
 const APIController = require("./controllers/apiController");
-const UsersController = require("./controllers/usersController");
-const EventsController = require("./controllers/eventsController");
-const MemoriesController = require("./controllers/memoriesController")
+const UsersController = require("./dist/usersController");
+const EventsController = require("./dist/eventsController");
+const MemoriesController = require("./dist/memoriesController")
 
 
 // Parse application body as JSON
