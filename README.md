@@ -22,7 +22,7 @@ Memory Maker is a full-stack web application created with the MVC paradigm. Memo
 * Once you have repo cloned and dependencies installed, run  ```node server.js``` in the command line to start server on localhost:3000.
 
 ## Usage
-1. View the deployed app [here]().
+1. View the deployed app [here](https://memory-make.herokuapp.com/).
 2. Sign up to create a new account or log in if you already have one.
 3. Click 'Create a memory' to add a new memory to your collection. Give your memory a rating, description, location, date, and add an image if desired.
 4. See all your memories appear in your main memories page. Click 'View details' button on any memory to see the selected memory's full description. From the single memory page, you can delete your memory, or alter the info using the 'Update' button.
